@@ -1,8 +1,8 @@
-import { ApodWidget } from "@/widget/apod/ui"
+import ApodView from "@/views/apod/ui"
 
 const Apod = () => {
   return (
-    <ApodWidget />
+    <ApodView />
   )
 }
 

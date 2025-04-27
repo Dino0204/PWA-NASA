@@ -5,7 +5,7 @@ import { getApod } from "../model/getApod"
 import { ApodPost } from "@/entities/apodPost/ui"
 import { ApodPostProps } from "@/entities/apodPost/model"
 
-export const ApodWidget = () => {
+const ApodView = () => {
   const [apod, setApod] = useState<ApodPostProps>()
 
   useEffect(() => {
@@ -37,3 +37,5 @@ export const ApodWidget = () => {
     </div>
   )
 }
+
+export default ApodView;
